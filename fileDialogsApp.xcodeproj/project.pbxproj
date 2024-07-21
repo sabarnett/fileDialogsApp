@@ -11,6 +11,7 @@
 		E80219522C4BC53600DE699C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80219512C4BC53600DE699C /* ContentView.swift */; };
 		E80219542C4BC53700DE699C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80219532C4BC53700DE699C /* Assets.xcassets */; };
 		E80219572C4BC53700DE699C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80219562C4BC53700DE699C /* Preview Assets.xcassets */; };
+		E80219612C4BC8CC00DE699C /* FileHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80219602C4BC8CC00DE699C /* FileHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		E80219532C4BC53700DE699C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80219562C4BC53700DE699C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E80219582C4BC53700DE699C /* fileDialogsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fileDialogsApp.entitlements; sourceTree = "<group>"; };
+		E80219602C4BC8CC00DE699C /* FileHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				E802194F2C4BC53600DE699C /* fileDialogsAppApp.swift */,
 				E80219512C4BC53600DE699C /* ContentView.swift */,
+				E80219602C4BC8CC00DE699C /* FileHelpers.swift */,
 				E80219532C4BC53700DE699C /* Assets.xcassets */,
 				E80219582C4BC53700DE699C /* fileDialogsApp.entitlements */,
 				E80219552C4BC53700DE699C /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				E80219522C4BC53600DE699C /* ContentView.swift in Sources */,
 				E80219502C4BC53600DE699C /* fileDialogsAppApp.swift in Sources */,
+				E80219612C4BC8CC00DE699C /* FileHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
