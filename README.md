@@ -6,3 +6,5 @@ This project is part of a series of development notes I want to write to documen
 
  [File Dialogs](http://www.sabarnett.co.uk/blogPage.php?id=fileDialogs)
 
+ [Custom File Extensions](http://www.sabarnett.co.uk/blogPage.php?id=fileExtensions)
+
