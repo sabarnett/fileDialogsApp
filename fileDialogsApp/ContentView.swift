@@ -46,6 +46,17 @@ struct ContentView: View {
                         selectedFolder = "No folder was selected"
                     }
                 }
+                Divider().frame(height: 20)
+                Button("Open xyz file") {
+                    if let selectedFile = FileHelpers.selectSingleXYZFile(
+                        withTitle: "Select an XYZ file") {
+
+                        selectedInputFile = selectedFile.path()
+                    } else {
+                        selectedInputFile = "No file selected"
+                    }
+                }
+
             }
             Divider()
             

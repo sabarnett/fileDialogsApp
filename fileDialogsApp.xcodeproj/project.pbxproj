@@ -12,6 +12,7 @@
 		E80219542C4BC53700DE699C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80219532C4BC53700DE699C /* Assets.xcassets */; };
 		E80219572C4BC53700DE699C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80219562C4BC53700DE699C /* Preview Assets.xcassets */; };
 		E80219612C4BC8CC00DE699C /* FileHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80219602C4BC8CC00DE699C /* FileHelpers.swift */; };
+		E8A23F672C4D395200A39FBE /* sample.xyz in Resources */ = {isa = PBXBuildFile; fileRef = E8A23F662C4D395200A39FBE /* sample.xyz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,8 @@
 		E80219562C4BC53700DE699C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E80219582C4BC53700DE699C /* fileDialogsApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fileDialogsApp.entitlements; sourceTree = "<group>"; };
 		E80219602C4BC8CC00DE699C /* FileHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelpers.swift; sourceTree = "<group>"; };
+		E8A23F652C4D32A800A39FBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E8A23F662C4D395200A39FBE /* sample.xyz */ = {isa = PBXFileReference; lastKnownFileType = text; path = sample.xyz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +57,14 @@
 		E802194E2C4BC53600DE699C /* fileDialogsApp */ = {
 			isa = PBXGroup;
 			children = (
+				E8A23F652C4D32A800A39FBE /* Info.plist */,
 				E802194F2C4BC53600DE699C /* fileDialogsAppApp.swift */,
 				E80219512C4BC53600DE699C /* ContentView.swift */,
 				E80219602C4BC8CC00DE699C /* FileHelpers.swift */,
 				E80219532C4BC53700DE699C /* Assets.xcassets */,
 				E80219582C4BC53700DE699C /* fileDialogsApp.entitlements */,
 				E80219552C4BC53700DE699C /* Preview Content */,
+				E8A23F662C4D395200A39FBE /* sample.xyz */,
 			);
 			path = fileDialogsApp;
 			sourceTree = "<group>";
@@ -131,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E80219572C4BC53700DE699C /* Preview Assets.xcassets in Resources */,
+				E8A23F672C4D395200A39FBE /* sample.xyz in Resources */,
 				E80219542C4BC53700DE699C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +289,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fileDialogsApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,6 +317,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fileDialogsApp/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

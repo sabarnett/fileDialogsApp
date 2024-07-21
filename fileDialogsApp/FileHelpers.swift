@@ -13,7 +13,17 @@ import Foundation
 import AppKit
 import UniformTypeIdentifiers
 
+extension UTType {
+    static var dataFileType: UTType {
+        UTType("uk.co.sabarnett.xyz")!
+    }
+}
+
 struct FileHelpers {
+    
+    public static func selectSingleXYZFile(withTitle windowTitle: String?) -> URL? {
+        return selectSingleInputFile(ofType: [.dataFileType], withTitle: windowTitle)
+    }
     
     public static func selectTextFile(withTitle windowTitle: String?) -> URL? {
         let textTypes: [UTType] = [UTType.plainText]
